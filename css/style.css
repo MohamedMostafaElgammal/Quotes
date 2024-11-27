@@ -1,0 +1,51 @@
+section{
+    background-image: url(../imges/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+.conter{
+    width: 70%;
+    /* height: 50%; */
+    background-color: rgba(0, 0, 0, 0.729);
+    padding: 15px;
+    border-radius: 50px;
+ 
+}
+h1{
+    font-size: 80px;
+    font-weight:800;
+    line-height: normal;
+    font-style: italic;
+    
+}
+h3{
+    font-style: italic;
+}
+.liinee{
+    margin: auto;
+    width: 70%;
+    height: 1px;
+    background-color: #fff;
+}
+.Quote-icon{
+    display: flex;
+    flex-direction: row;
+}
+.Quote-icon i{
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+    transition: all .5s ease-in-out;
+}
+.Quote-icon i:hover{
+    background-color: #000;
+    color: #fff;
+}
